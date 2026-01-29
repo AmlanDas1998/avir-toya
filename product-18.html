@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product 18</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    .product-container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1200px;
+      margin: 50px auto;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .product-image {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f4f4f4;
+    }
+    .product-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .product-details {
+      flex: 1;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .product-details h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .product-details .price {
+      font-size: 1.8rem;
+      color: #e63946;
+      margin-bottom: 20px;
+    }
+    .product-details .description {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    .product-details .add-to-cart {
+      background-color: #ff6f61;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .product-details .add-to-cart:hover {
+      background-color: #ff856e;
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1>Product 18</h1>
+  </header>
+  <div class="product-container">
+    <div class="product-image">
+      <img src="images/drinks/drink2-1.png" alt="Product 18">
+    </div>
+    <div class="product-details">
+      <h1>Product 18</h1>
+      <p class="price">₹9,117</p>
+      <p class="description">Made with premium ingredients for a refreshing experience. Enjoy the perfect blend of flavors in every sip.</p>
+      <button class="add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>

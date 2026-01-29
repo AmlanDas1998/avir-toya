@@ -54,7 +54,7 @@ body{
 .hero{position:relative;margin:28px auto;max-width:var(--max-width);border-radius:18px;overflow:visible}
 .collage-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:180px;gap:12px;padding:18px}
 .collage-grid .tile{overflow:hidden;border-radius:10px}
-.collage-grid img{width:100%;height:100%;object-fit:cover;display:block;filter:contrast(1.05) saturate(1.05) hue-rotate(-6deg)}
+.collage-grid img{width:100%;height:100%;object-fit:cover;display:block;filter:none !important; /* Ensure no filters are applied to the images */}
 .collage-overlay{position:absolute;inset:0;background:linear-gradient(180deg, rgba(6,6,12,0.18), rgba(6,6,12,0.42));display:flex;align-items:center;justify-content:flex-start;padding:48px}
 .hero-copy{margin-left:28px;background:linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));padding:26px;border-radius:12px;backdrop-filter: blur(6px);border:1px solid rgba(235,185,54,0.05)}
 .hero-copy .hero-title{font-family:'Playfair Display',serif;color:#fff;font-size:44px;margin:0}
@@ -100,10 +100,12 @@ body{
 
 /* Enhance carousel colors for a fun and refreshing theme */
 .clean-carousel {
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center;
+  background-size: cover; /* Ensure the image covers the entire background */
+}
+
+body {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Move the red background to the body */
 }
 
 .carousel-slide {

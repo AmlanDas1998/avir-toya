@@ -2,370 +2,54 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Avir Toya — Fresh drinks crafted for the Indian palate.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Avir Toya — Continuous Flowing Fresh Water">
   <title>Avir Toya</title>
-  <meta name="theme-color" content="#0b2b2d">
-  <!-- Fonts: Playfair Display for headings, Inter for UI/body -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="images/logo.png" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="images/logo.png">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <header class="site-header" role="banner">
-    <div class="container" style="display:flex;align-items:center;justify-content:flex-start;padding:18px 40px;max-width:1200px;margin:0 auto;">
-      <a href="index.html" aria-label="Avir Toya home" style="display:inline-flex;align-items:center;gap:12px;text-decoration:none;color:inherit;">
-        <img src="images/logo.png" alt="Avir Toya logo" class="hero-logo">
-      </a>
-      <nav aria-label="Main navigation" style="margin-left:auto;">
-        <a href="products.html" style="text-decoration:none;color:inherit;margin-right:18px;">Products</a>
-        <a href="contact.html" style="text-decoration:none;color:inherit;margin-right:18px;">Contact</a>
-        <a href="customer-reviews.html" style="text-decoration:none;color:inherit;">Customer Reviews</a>
-      </nav>
-    </div>
+  <header class="hero-section">
+    <h1>Avir Toya</h1>
+    <p>Continuous Flowing Fresh Water</p>
   </header>
 
-  <main>
+  <section class="brand-meaning">
+    <h2>Our Name</h2>
+    <p>Avir Toya means "continuous flowing fresh water" — a symbol of purity, flow, and life. It represents our commitment to crafting beverages that embody these qualities.</p>
+  </section>
 
-    <!-- CYBERPUNK COLLAGE HERO -->
-    <section class="hero collage-hero" aria-label="Hero">
-      <div class="collage-grid">
-        <div class="tile t1"><img src="images/drinks/0902f2ee-fc57-4b34-90c6-43f6a3ce44cf.png" alt="drink" loading="lazy"></div>
-        <div class="tile t2"><img src="images/drinks/370be5f1-30d7-4fa0-bcfb-1431e29685b8.png" alt="drink" loading="lazy"></div>
-        <div class="tile t3"><img src="images/drinks/d01a3a2b-9d84-4d64-96d9-32719a9c2d09.png" alt="drink" loading="lazy"></div>
-        <div class="tile t4"><img src="images/drinks/drink1-1.png" alt="drink" loading="lazy"></div>
-        <div class="tile t5"><img src="images/drinks/drink2-1.png" alt="drink" loading="lazy"></div>
-        <div class="tile t6"><img src="images/drinks/drink3-1.png" alt="drink" loading="lazy"></div>
-        <div class="tile t7"><img src="images/drinks/drink4-1.png" alt="drink" loading="lazy"></div>
-        <div class="tile t8"><img src="images/drinks/ec47bb08-5663-4fff-8cc1-cc793d21c0ee.png" alt="drink" loading="lazy"></div>
+  <section class="vision">
+    <h2>Our Vision</h2>
+    <p>At Avir Toya, we believe that drinks are more than just beverages. They are crafted experiences, designed to refresh and inspire. Our philosophy is simple: to create drinks that flow seamlessly into your life, bringing moments of calm and joy.</p>
+  </section>
+
+  <section class="signature-drinks">
+    <h2>Signature Drinks</h2>
+    <div class="drinks-grid">
+      <div class="drink">
+        <h3>Sunrise Sipper</h3>
+        <p>Bright citrus with gentle sweetness.</p>
       </div>
-      <div class="collage-overlay">
-        <div class="hero-copy">
-          <h1 class="hero-title">Avir Toya</h1>
-          <p class="hero-subtitle">Crafted + curated drinks — bold, modern and premium.</p>
-          <a class="hero-button" href="products.html">Explore the collection</a>
-        </div>
+      <div class="drink">
+        <h3>Mint Mist</h3>
+        <p>Cool mint and a hint of lemon.</p>
       </div>
-    </section>
-
-    <!-- CLEAN CAROUSEL: 8 tiles, 3 visible, infinite loop via clones -->
-    <section class="info-section carousel clean-carousel" aria-label="Highlights">
-      <div class="carousel-viewport" aria-live="polite">
-        <div class="carousel-track" role="list">
-          <!-- 8 real slides -->
-          <a class="carousel-slide" href="drink-1.html" role="listitem">
-            <div class="slide-inner">
-              <img src="images/drinks/drink1-1.png" alt="Sunrise Sipper" loading="lazy">
-              <div class="slide-content"><h3>Sunrise Sipper</h3><p>Bright citrus with gentle sweetness.</p></div>
-            </div>
-          </a>
-          <a class="carousel-slide" href="drink-2.html" role="listitem">
-            <div class="slide-inner">
-              <img src="images/drinks/drink2-1.png" alt="Mint Mist" loading="lazy">
-              <div class="slide-content"><h3>Mint Mist</h3><p>Cool mint and a hint of lemon.</p></div>
-            </div>
-          </a>
-          <a class="carousel-slide" href="drink-3.html" role="listitem">
-            <div class="slide-inner">
-              <img src="images/drinks/drink3-1.png" alt="Spiced Orchard" loading="lazy">
-              <div class="slide-content"><h3>Spiced Orchard</h3><p>Warm spices with fruity notes.</p></div>
-            </div>
-          </a>
-          <a class="carousel-slide" href="drink-4.html" role="listitem">
-            <div class="slide-inner">
-              <img src="images/drinks/drink4-1.png" alt="Golden Fizz" loading="lazy">
-              <div class="slide-content"><h3>Golden Fizz</h3><p>Light sparkle, citrus & honey.</p></div>
-            </div>
-          </a>
-          <a class="carousel-slide" href="drink-5.html" role="listitem">
-            <div class="slide-inner">
-              <img src="images/drinks/drink2-1.png" alt="Citrus Bloom" loading="lazy">
-              <div class="slide-content"><h3>Citrus Bloom</h3><p>Zesty and floral finish.</p></div>
-            </div>
-          </a>
-          <a class="carousel-slide" href="drink-6.html" role="listitem">
-            <div class="slide-inner">
-              <img src="images/drinks/drink3-1.png" alt="Tamarind Twist" loading="lazy">
-              <div class="slide-content"><h3>Tamarind Twist</h3><p>Tangy regional favourite.</p></div>
-            </div>
-          </a>
-          <a class="carousel-slide" href="drink-7.html" role="listitem">
-            <div class="slide-inner">
-              <img src="images/drinks/drink4-1.png" alt="Ginger Glow" loading="lazy">
-              <div class="slide-content"><h3>Ginger Glow</h3><p>Warm ginger with lemon.</p></div>
-            </div>
-          </a>
-          <a class="carousel-slide" href="drink-8.html" role="listitem">
-            <div class="slide-inner">
-              <img src="images/drinks/drink1-1.png" alt="Evening Berry" loading="lazy">
-              <div class="slide-content"><h3>Evening Berry</h3><p>Soft berry-forward profile.</p></div>
-            </div>
-          </a>
-        </div>
+      <div class="drink">
+        <h3>Spiced Orchard</h3>
+        <p>Warm spices with fruity notes.</p>
       </div>
-
-      <button class="carousel-btn prev" aria-label="Previous" data-action="prev">‹</button>
-      <button class="carousel-btn next" aria-label="Next" data-action="next">›</button>
-      <div id="carousel-announcer" class="sr-only" aria-live="polite"></div>
-    </section>
-
-    <!-- PRODUCTS SECTION -->
-    <section class="container page-section">
-      <h2>Presenting our Selection</h2>
-      <p class="lede">Explore our wide range of refreshing drinks. Here are some of our favorites:</p>
-
-      <div class="menu-grid" role="list">
-        <!-- 18 clickable product tiles -->
-        <a href="product-1.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink1-1.png" alt="Placeholder Drink 1" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 1</h3>
-          </div>
-        </a>
-        <a href="product-2.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink2-1.png" alt="Placeholder Drink 2" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 2</h3>
-          </div>
-        </a>
-        <a href="product-3.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink3-1.png" alt="Placeholder Drink 3" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 3</h3>
-          </div>
-        </a>
-        <a href="product-4.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink4-1.png" alt="Placeholder Drink 4" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 4</h3>
-          </div>
-        </a>
-        <a href="product-5.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink1-1.png" alt="Placeholder Drink 5" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 5</h3>
-          </div>
-        </a>
-        <a href="product-6.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink2-1.png" alt="Placeholder Drink 6" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 6</h3>
-          </div>
-        </a>
-        <a href="product-7.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink3-1.png" alt="Placeholder Drink 7" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 7</h3>
-          </div>
-        </a>
-        <a href="product-8.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink4-1.png" alt="Placeholder Drink 8" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 8</h3>
-          </div>
-        </a>
-        <a href="product-9.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink1-1.png" alt="Placeholder Drink 9" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 9</h3>
-          </div>
-        </a>
-        <a href="product-10.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink2-1.png" alt="Placeholder Drink 10" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 10</h3>
-          </div>
-        </a>
-        <a href="product-11.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink3-1.png" alt="Placeholder Drink 11" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 11</h3>
-          </div>
-        </a>
-        <a href="product-12.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink4-1.png" alt="Placeholder Drink 12" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 12</h3>
-          </div>
-        </a>
-        <a href="product-13.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink1-1.png" alt="Placeholder Drink 13" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 13</h3>
-          </div>
-        </a>
-        <a href="product-14.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink2-1.png" alt="Placeholder Drink 14" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 14</h3>
-          </div>
-        </a>
-        <a href="product-15.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink3-1.png" alt="Placeholder Drink 15" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 15</h3>
-          </div>
-        </a>
-        <a href="product-16.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink4-1.png" alt="Placeholder Drink 16" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 16</h3>
-          </div>
-        </a>
-        <a href="product-17.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink1-1.png" alt="Placeholder Drink 17" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 17</h3>
-          </div>
-        </a>
-        <a href="product-18.html" class="menu-card" role="listitem">
-          <img src="images/drinks/drink2-1.png" alt="Placeholder Drink 18" loading="lazy">
-          <div class="menu-card-body">
-            <h3>Placeholder Drink 18</h3>
-          </div>
-        </a>
+      <div class="drink">
+        <h3>Golden Fizz</h3>
+        <p>Light sparkle, citrus & honey.</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <script>
-      (function () {
-        const section = document.querySelector('.clean-carousel');
-        const viewport = section.querySelector('.carousel-viewport');
-        const track = section.querySelector('.carousel-track');
-        const slides = Array.from(section.querySelectorAll('.carousel-slide'));
-        const prevBtn = section.querySelector('.carousel-btn.prev');
-        const nextBtn = section.querySelector('.carousel-btn.next');
-
-        if (!viewport || slides.length === 0) return;
-
-        const VISIBLE = 3; // number of slides visible
-        const GAP = parseInt(getComputedStyle(track).gap || '20', 10) || 20;
-
-        // Clone head and tail for seamless looping
-        const headClones = slides.slice(0, VISIBLE).map(s => s.cloneNode(true));
-        const tailClones = slides.slice(-VISIBLE).map(s => s.cloneNode(true));
-
-        headClones.forEach(n => track.appendChild(n));
-        tailClones.reverse().forEach(n => track.insertBefore(n, track.firstChild));
-
-        let allSlides = Array.from(track.children);
-
-        // compute sizes and set flex-basis using JS to avoid fractional rounding differences
-        function computeSizes() {
-          const vw = viewport.clientWidth;
-          const tileW = Math.floor((vw - (VISIBLE - 1) * GAP) / VISIBLE);
-          allSlides.forEach(s => { s.style.flex = `0 0 ${tileW}px`; s.style.maxWidth = tileW + 'px'; });
-          return tileW;
-        }
-
-        let tileW = computeSizes();
-
-        // starting index is at the first real slide (after tail clones)
-        let index = tailClones.length;
-
-        function applyTransform(animate = true) {
-          if (!animate) track.style.transition = 'none'; else track.style.transition = 'transform 420ms cubic-bezier(.2,.9,.2,1)';
-          const offset = index * (tileW + GAP);
-          track.style.transform = `translate3d(${-offset}px,0,0)`;
-        }
-
-        // initial position without animation
-        applyTransform(false);
-
-        // advance/rewind
-        let isAnimating = false;
-        function go(delta = 1) {
-          if (isAnimating) return;
-          isAnimating = true;
-          index += delta;
-          applyTransform(true);
-        }
-
-        track.addEventListener('transitionend', () => {
-          isAnimating = false;
-          // if we've moved past the real slides, jump back
-          if (index >= tailClones.length + slides.length) {
-            // jumped to clones at end; snap to real first
-            index = tailClones.length;
-            applyTransform(false);
-          } else if (index < tailClones.length) {
-            // jumped to clones at start; snap to real last block
-            index = tailClones.length + slides.length - 1;
-            applyTransform(false);
-          }
-        });
-
-        // make slides focusable
-        allSlides.forEach(s => s.setAttribute('tabindex', '-1'));
-
-        // prev/next buttons
-        prevBtn.addEventListener('click', () => { go(-1); ariaAnnounceCurrent(); });
-        nextBtn.addEventListener('click', () => { go(1); ariaAnnounceCurrent(); });
-
-        // keyboard navigation (left/right) on section
-        section.addEventListener('keydown', (ev) => {
-          if (ev.key === 'ArrowLeft') { ev.preventDefault(); go(-1); ariaAnnounceCurrent(); }
-          if (ev.key === 'ArrowRight') { ev.preventDefault(); go(1); ariaAnnounceCurrent(); }
-        });
-
-        // when slides receive focus, pause autoplay
-        section.addEventListener('focusin', () => stopAutoplay());
-        section.addEventListener('focusout', () => startAutoplay());
-
-        const announcer = document.getElementById('carousel-announcer');
-        function ariaAnnounceCurrent() {
-          // center slide is index + 1 (middle of 3)
-          const centerIndex = (index + Math.floor(VISIBLE/2)) % slides.length;
-          const slideEl = slides[centerIndex];
-          const title = slideEl && slideEl.querySelector('h3') ? slideEl.querySelector('h3').textContent : '';
-          const desc = slideEl && slideEl.querySelector('p') ? slideEl.querySelector('p').textContent : '';
-          if (announcer) announcer.textContent = `Showing ${title}: ${desc}`;
-        }
-
-        // autoplay
-        let autoplayId = null;
-        function startAutoplay() { stopAutoplay(); autoplayId = setInterval(() => go(1), 2000); }
-        function stopAutoplay() { if (autoplayId) { clearInterval(autoplayId); autoplayId = null; } }
-
-        // pause on hover
-        section.addEventListener('mouseenter', stopAutoplay);
-        section.addEventListener('mouseleave', startAutoplay);
-
-        // intersection observer to only autoplay when visible
-        const io = new IntersectionObserver(entries => {
-          entries.forEach(e => {
-            if (e.isIntersecting && e.intersectionRatio > 0.25 && !document.hidden) startAutoplay(); else stopAutoplay();
-          });
-        }, { threshold: [0.25] });
-        io.observe(section);
-
-        // handle visibility change
-        document.addEventListener('visibilitychange', () => { if (document.hidden) stopAutoplay(); else startAutoplay(); });
-
-        // resize handling
-        let rTimer = null;
-        window.addEventListener('resize', () => {
-          clearTimeout(rTimer);
-          rTimer = setTimeout(() => {
-            tileW = computeSizes();
-            applyTransform(false);
-          }, 120);
-        });
-
-        // start
-        applyTransform(false);
-        startAutoplay();
-      })();
-    </script>
-
-  </main>
-
-  <footer style="text-align:center;padding:28px 16px;color:#666;background:#fafafa;margin-top:60px;">
-    <p>&copy; 2026 Avir Toya — Crafted for the Indian palate</p>
+  <footer class="footer">
+    <p>Avir Toya</p>
+    <p>City</p>
+    <a href="https://instagram.com/avirtoya">Instagram</a>
   </footer>
-
 </body>
 </html>

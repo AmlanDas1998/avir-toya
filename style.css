@@ -98,6 +98,68 @@ body{
 .slide-content h3{margin:0;font-family:'Playfair Display',serif;font-size:18px}
 .slide-content p{margin-top:8px;color:var(--muted);font-size:14px}
 
+/* Enhance carousel colors for a fun and refreshing theme */
+.clean-carousel {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slide {
+  background: #ffffff;
+  border: 2px solid #ff6f61; /* Bright coral border */
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carousel-slide:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(255, 111, 97, 0.5);
+}
+
+.carousel-slide .slide-content h3 {
+  color: #ff6f61; /* Bright coral */
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-slide .slide-content p {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.carousel-btn {
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background: #ff856e;
+  transform: scale(1.1);
+}
+
+.carousel-btn:active {
+  transform: scale(0.95);
+}
+
+#carousel-announcer {
+  color: #ff6f61;
+  font-weight: bold;
+}
+
 /* subtle textured overlay for carousel */
 .clean-carousel::before{content:'';position:absolute;inset:0;border-radius:18px;background:linear-gradient(180deg, rgba(255,255,255,0.2), rgba(255,255,255,0.05));pointer-events:none}
 
@@ -123,6 +185,111 @@ body{
 
 /* Footer */
 .site-footer{padding:28px 0;text-align:center;color:var(--muted)}
+
+/* Add premium-looking borders */
+.hero-logo {
+  border: 3px solid #0b2b2d; /* Dark teal border */
+  border-radius: 50%;
+  padding: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.collage-grid .tile img {
+  border: 5px solid #0b2b2d; /* Dark teal border */
+  border-radius: 15px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.collage-grid .tile img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-slide img {
+  border: 4px solid #0b2b2d; /* Dark teal border */
+  border-radius: 12px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.carousel-slide img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Add animations to images */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.collage-grid .tile img {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.carousel-slide img {
+  animation: zoomIn 1.2s ease-in-out;
+}
+
+/* General premium styling */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+}
+
+.site-header {
+  border-bottom: 2px solid #0b2b2d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #0b2b2d;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.hero-button {
+  background: #0b2b2d;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.hero-button:hover {
+  background: #05595b;
+  transform: scale(1.05);
+}
 
 /* Responsive */
 @media (max-width:1000px){
